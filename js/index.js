@@ -18,7 +18,7 @@ function exitVideo(){
 const img = document.querySelector('#lock-vid img');
 
 img.addEventListener('click', function () {
-    img.src = "assets/videos/lock2.gif";
+    img.src = "../assets/videos/lock2.gif";
     colourScreen();
     setTimeout(exitVideo, 1900);
 });
