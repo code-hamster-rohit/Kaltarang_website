@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Nanum+Gothic+Coding&family=Rubik+Doodle+Shadow&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    transition: all 0.5s ease-in;
+    background: 
+        url('../assets/images/bg-main.jpg') center/cover fixed,
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    filter: grayscale(100%);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+header nav{
+    width: 100%;
+}
+
+header nav table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+header nav table tr{
+    width: 100%;
+    height: 100%;
+}
+
+header nav table #left-left{
+    width : 12%;
+}
+
+header nav table #left-left-div{
+    margin: 25px -1px;
+    height: 100px;
+    border-right: 1px solid white;
+}
+
+header nav table #left-right{
+    width: 40%;
+}
+
+header nav table #left-right-div{
+    margin: 25px -1px;
+    height: 100px;
+    border-left: 1px solid white;
+}
+
+header nav table .right{
+    width: 8%;
+    
+}
+
+header nav table #menu-th{
+    display: none;
+}
+
+header nav table a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header nav table a img{
+    width: 150px;
+    height: 150px;
+}
+
+header nav table a #left-img{
+    float: right;
+}
+
+header nav table a #right-img{
+    float: left;
+}
+
+main #heading{
+    width: 100%;
+    height: 100%;
+    margin: 1rem auto;
+    padding-top: 11rem;
+    text-align: center;
+    font-size: 150px;
+    color: gold;
+}
+
+main #heading-content{
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+
+main #heading-gif{
+    width: 100%;
+    height: 100%;
+    margin: 3rem auto 0 auto;
+    text-align: center;
+}
+
+main #heading-gif img{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+main a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.content-div{
+    /* display: none; */
+    width: 75%;
+    margin: 1rem auto;
+    padding: 2rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.3);
+}
+
+.content-div:before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 100%);
+    z-index: -1;
+}
+
+.content-div-heading{
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.content-div-p{
+    line-height: 1.6;
+}
+
+
+
+
+/* Mobile View */
+
+header nav #hidden-table{
+    display: none;
+    width: 100%;
+    text-align: right;
+    border-collapse: separate;
+    padding: 0.4rem;
+    border-spacing: 1rem;
+}
