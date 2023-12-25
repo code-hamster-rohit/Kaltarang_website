@@ -4,56 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="css/index.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <title>Kaltarang'23</title>
+    <link rel="stylesheet" href="../css/test_index.css">
+    <title>Kaltarang'24</title>
 </head>
 <body>
-    <header>
+    
+    <header id="Header">
         <nav>
-            <ul>
-                <li class="left-li" style="border-right: 1px solid grey;">
-                    <a href="#logo-cultural-council">
-                        <img src="" alt="CULTURAL_COUNCIL">
-                    </a>
-                </li>
-                <li class="left-li">
-                    <a href="#logo-kaltarang">
-                        <img src="" alt="KALTARANG'23">
-                    </a>
-                </li>
-                <li class="last-li"><i class="fas fa-bars"></i></li>
-                <li class="right-li">
-                    <a href="#user">User</a>
-                </li>
-                <li class="right-li">
-                    <a href="#ca">CA</a>
-                </li>
-                <li class="right-li">
-                    <a href="#sponsers">Sponsers</a>
-                </li>
-                <li class="right-li">
-                    <a href="#events">Events</a>
-                </li>
-                <li class="right-li">
-                    <a href="#home">Home</a>
-                </li>
-            </ul>
+            <table>
+                <tr>
+                    <th class="left" id="left-left">
+                        <a href="">
+                            <img src="../assets/images/cultural-logo-nobg.png" alt="CULTURAL_COUNCIL" id="left-img">
+                        </a>
+                        <div id="left-left-div"></div>
+                    </th>
+                    <th class="left" id="left-right">
+                        <a href="">
+                            <img src="../assets/images/kaltarang-logo-nobg.png" alt="KALTARANG" id="right-img">
+                        </a>
+                        <div id="left-right-div"></div>
+                    </th>
+                    <th class="right">
+                        <a href="#about-us">HOME</a>
+                    </th>
+                    <th class="right">
+                        <a href="#events">EVENTS</a>
+                    </th>
+                    <th class="right">
+                        <a href="#sponsers">SPONSERS</a>
+                    </th>
+                    <th class="right">
+                        <a href="">CA</a>
+                    </th>
+                    <th class="right">
+                        <a href="">USER</a>
+                    </th>
+                    <th class="right" id="menu-th">
+                        <i class="fas fa-bars" id="menu"></i>
+                    </th>
+                </tr>
+            </table>
+            <table id="hidden-table">
+                <tr>
+                    <th>
+                        HOME
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        EVENTS
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        SPONSERS
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        CA
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        USER
+                    </th>
+                </tr>
+            </table>
         </nav>
     </header>
 
     <main>
         <div id="heading">
-            Kaltarang'23
+            KALTARANG
         </div>
         <div id="heading-content">
-            Are you ready to ride on the wave of art ?<br>
-            LET'S UNLOCK!
+            Bring the light to the festival<br>
+            Let's unlock our true spirits!
         </div>
-        <div id="lock-vid">
-            <img src="assets/images/lock2-static.png" id="lock">
+        <div id="heading-gif">
+            <img src="../assets/images/lock2-static.png" alt="" id="heading-gif-img">
+        </div>
+
+        <!-- Content Division -->
+
+        <div id="content">
+            <div class="content-div" id="about-us">
+                <h3 class="content-div-heading" id="about-us-heading">About Us</h3>
+                <p class="content-div-p">
+                    Kaltarang, meaning ("Waves of Art and Creativity," ) is the annual cultural festival of the Rajiv Gandhi Institute of Petroleum Technology.
+                    It is a celebration and appreciation of all forms of art, and has grown in popularity since its inception in 2011.
+                    The dedicated team behind Kaltarang works hard to make it one of the largest festivals in North Central India, offering a weekend of excitement and entertainment.
+                    The festival aims to provide visitors with an unforgettable experience, as well as a platform for young Indian talents to showcase their abilities to a large and diverse audience.
+                </p>
+            </div>
+
+            <div class="content-div" id="events">
+                <h3 class="content-div-heading" id="about-us-heading">Events</h3>
+                <p class="content-div-p">
+                    Kaltarang, meaning ("Waves of Art and Creativity," ) is the annual cultural festival of the Rajiv Gandhi Institute of Petroleum Technology.
+                    It is a celebration and appreciation of all forms of art, and has grown in popularity since its inception in 2011.
+                    The dedicated team behind Kaltarang works hard to make it one of the largest festivals in North Central India, offering a weekend of excitement and entertainment.
+                    The festival aims to provide visitors with an unforgettable experience, as well as a platform for young Indian talents to showcase their abilities to a large and diverse audience.
+                </p>
+            </div>
+
+            <div class="content-div" id="sponsers">
+                <h3 class="content-div-heading" id="about-us-heading">Sponsers</h3>
+                <p class="content-div-p">
+                    Kaltarang, meaning ("Waves of Art and Creativity," ) is the annual cultural festival of the Rajiv Gandhi Institute of Petroleum Technology.
+                    It is a celebration and appreciation of all forms of art, and has grown in popularity since its inception in 2011.
+                    The dedicated team behind Kaltarang works hard to make it one of the largest festivals in North Central India, offering a weekend of excitement and entertainment.
+                    The festival aims to provide visitors with an unforgettable experience, as well as a platform for young Indian talents to showcase their abilities to a large and diverse audience.
+                </p>
+            </div>
         </div>
     </main>
-    <script src="js/index.js"></script>
+
+    <footer>
+
+    </footer>
+
+    <script src="../js/test_index.js"></script>
 </body>
 </html>
